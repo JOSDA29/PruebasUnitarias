@@ -1,4 +1,8 @@
 function suma(a, b) {
     return a - b;
     }
- module.exports = suma;
+
+function mult(a, b) {
+    return a * b;
+    }
+ module.exports = {suma, mult};
